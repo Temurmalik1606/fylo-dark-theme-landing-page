@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, span{
+   color: #fff;
+}
+
+body{
+   font-family: Raleway;
+   background-color: #1B2330;
+}
+
+header{
+   padding-top: 73px;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 75px;
+}
+
+header .contents{
+   padding-left: 80px;
+   padding-right: 80px;
+   width: 1280px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+header .contents .nav ul, a{
+   color: #fff;
+   font-weight: 400;
+   font-size: 16px;
+   text-transform: capitalize;
+   display: flex;
+   column-gap: 57px;
+   list-style: none;
+   text-decoration: none;
+   transition: 0.3s;
+}
+
+header .contents .nav a:hover{
+   font-weight: 700;
+   text-decoration: underline;
+}
+
+section{
+   display: flex;
+   justify-content: center;
+}
+
+section .contents{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+section .contents .text{
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   row-gap: 32px;
+}
+
+section .contents .text h1{
+   max-width: 734px;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 60px;
+   margin-top: 36px;
+}
+
+section .contents .text p{
+   max-width: 589px;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 30px;
+}
+
+section .contents button{
+   width: 280px;
+   padding: 19px 96px;
+   background: linear-gradient(#63E1D9 100%, #34A0CD 100%);
+   border: none;
+   border-radius: 50px;
+   cursor: pointer;
+   transition: 0.3s;
+
+   color: #fff;
+   font-weight: 700;
+   font-size: 14px;
+   text-transform: capitalize;
+}
+
+section .contents .text button:hover{
+   background-color: #8ADAE3;
+   filter: opacity(0.7);
+}
+
+.features{
+   display: flex;
+   justify-content: center;
+   margin-top: 158px;
+   margin-bottom: 137px;
+}
+
+.features .contents{
+   width: 880px;
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 147px;
+   row-gap: 79px
+}
+
+.features .contents p{
+   font-family: 'Open Sans';
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 21px;
+}
+
+.features .contents h5{
+   font-weight: 700;
+   font-size: 20px;
+   margin-top: 16px;
+   margin-bottom: 8px;
+}
+
+.features .contents .accessible{
+   width: 350px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+}
+
+.features .contents .security{
+   width: 350px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+}
+
+.features .contents .time{
+   width: 350px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+}
+
+.features .contents .store{
+   width: 350px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+}
+
+.main-body{
+   display: flex;
+   justify-content: center;
+}
+
+.main-body .contents{
+   width: 1280px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.main-body .contents .text h2{
+   width: 450px;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 50px;
+   margin-bottom: 19px;
+}
+
+.main-body .contents .text p, span{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   margin-top: 16px;
+}
+
+.main-body .contents .text .link{
+   width: 170px;
+   font-weight: 400;
+   font-size: 16px;
+   color: #62E0D9;
+   text-decoration: underline #62E0D9;
+   margin-top: 24px;
+   display: flex;
+   column-gap: 8px;
+   align-items: center;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+.main-body .contents .text .link:hover{
+   color: #fff;
+   text-decoration: underline #fff
+}
+
+.cards{
+   max-width: 1180px;
+   display: flex;
+   margin: 120px auto;
+   column-gap: 40px;
+}
+
+.cards .card{
+   width: 360px;
+   padding: 26px 40px;
+   background-color: #202A3C;
+   display: flex;
+   flex-direction: column;
+}
+
+.cards p{
+   width: 309px;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 21px;
+}
+
+.cards .person{
+   margin-top: 24px;
+}
+
+footer{
+   margin-top: 200px;
+}
+
+footer .registration{
+   max-width: 863px;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin: 0 auto;
+   background-color: #2e3643;
+}
+
+footer .registration .contents{
+   padding: 42px 77px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+footer .registration .contents h1{
+   font-weight: 700;
+   font-size: 32px;
+   margin-bottom: 16px;
+}
+
+footer .registration .contents p{
+   font-family: 'Open Sans';
+   font-weight: 400;
+   font-size: 14px;
+   text-align: center;
+}
+
+footer .registration .contents .btn{
+   width: 709px;
+   display: flex;
+   align-items: center;
+   column-gap: 29px;
+}
+
+footer .registration .contents .btn input{
+   font-family: 'Open Sans';
+   width: 480px;
+   height: 48px;
+   padding: 16px 38px;
+   margin-top: 38px;
+   border-radius: 50px;
+}
+
+footer .registration .contents .btn button{
+   width: 200px;
+   height: 48px;
+   margin-top: 30px;
+   border: none;
+   border-radius: 50px;
+   background: linear-gradient(#63E1D9 100%, #34A0CD 100%);
+   cursor: pointer;
+
+   color: #fff;
+   font-weight: 700;
+   font-size: 14px;
+}
+
+footer .registration .contents .btn button:hover{
+   background-color: #8ADAE3;
+   filter: opacity(0.7);
+}
+
+footer section{
+   padding: 120px 169px;
+   background-color: #0B1524;
+}
+
+footer section .contents .connection{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 53px;
+}
+
+footer section .contents .connection .location{
+   width: 379px;
+   display: flex;
+   column-gap: 16px;
+}
+
+footer section .contents .connection .location p{
+   font-family: 'Open Sans';
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+}
+
+footer section .contents .connection .p-number{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   row-gap: 16px;
+   margin-left: 80px;
+}
+
+footer section .contents .connection .nav{
+   display: flex;
+   column-gap: 80px;
+   margin-left: 146px;
+   margin-top: 55px;
+}
+
+footer section .contents .connection .nav ul li{
+   list-style: none;
+   display: flex;
+   margin-bottom: 16px;
+   transition: 0.3s;
+}
+
+footer section .contents .connection .nav ul li a:hover{
+   font-weight: 700;
+}
+
+footer section .contents .connection .social-medias{
+   padding-left: 114px;
+   display: flex;
+   column-gap: 11px;
+   margin-left: 20px;
+}
+
+
+
+
+
+
+@media (max-width: 1180px) {
+   header .contents{
+      padding-left: 22px;
+      padding-right: 22px;
+   }
+
+   section .contents .img img{
+      width: 450px;
+      height: 330px;
+   }
+
+   section .contents .text h1{
+      width: 650px;
+      font-size: 30px;
+      line-height: 36px;
+   }
+
+   section .contents .text p{
+      width: 420px;
+      font-size: 14px;
+      line-height: 21px;
+   }
+
+   .features .contents{
+      justify-content: center;
+      width: 880px;
+      padding-left: 10px;
+      padding-right: 10px;
+      column-gap: 117px;
+      row-gap: 65px
+   }
+
+   .features .contents p{
+      font-size: 12px;
+      line-height: 21px;
+   }
+   
+   .features .contents h5{
+      font-size: 16px;
+      margin-top: 16px;
+      margin-bottom: 8px;
+   }
+
+   .main-body .contents{
+      flex-direction: column;
+      justify-content: center;
+   }
+
+   .main-body .contents .img img{
+      width: 550px;
+      height: 400px;
+   }
+
+   .main-body .contents .text{
+      width: 563px;
+      margin-top: 50px;
+   }
+
+   .main-body .contents .text h2{
+      text-align: center;
+   }
+
+   .main-body .contents .text span, p{
+      font-size: 14px;
+      line-height: 20px;
+      margin-top: 16px;
+   }
+
+   .cards{
+      padding-left: 10px;
+      padding-right: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+      row-gap: 24px;
+   }
+
+   footer .registration{
+      max-width: 763px;
+      height: 353px;
+   }
+   
+   footer .registration .contents .btn{
+      display: flex;
+      flex-direction: column;
+   }
+}
+
+@media (max-width: 670px) {
+   header .contents .logo img{
+      width: 90px;
+      height: 34px;
+   }
+
+   header .contents .nav ul, a{
+      font-size: 14px;
+      column-gap: 24px;
+   }
+   
+   section .contents .img img{
+      width: 304px;
+      height: 225px;
+   }
+
+   section .contents .text h1{
+      width: 320px;
+      font-size: 24px;
+      line-height: 36px;
+   }
+
+   section .contents .text p{
+      width: 296px;
+      font-size: 14px;
+      line-height: 21px;
+   }
+
+   button{
+      width: 245px;
+      padding: 16px 81px;
+      font-size: 14px;
+   }
+
+   .features .contents{
+      justify-content: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      row-gap: 65px
+   }
+
+   .features .contents p{
+      font-size: 14px;
+      line-height: 21px;
+   }
+   
+   .features .contents h5{
+      font-size: 18px;
+      margin-top: 24px;
+      margin-bottom: 8px;
+   }
+
+   .main-body .contents .img img{
+      width: 301px;
+      height: 230px;
+   }
+
+   .main-body .contents .text{
+      width: 320px;
+      margin-top: 50px;
+   }
+
+   .main-body .contents .text h2{
+      width: 295px;
+      font-size: 18px;
+      line-height: 24px;
+   }
+
+   .main-body .contents .text span, p{
+      font-size: 14px;
+      line-height: 20px;
+   }
+
+   footer .registration .contents h1{
+      font-size: 18px;
+   }
+
+   footer .registration .contents p{
+      width: 280px;
+   }
+
+   footer .registration .contents .btn input{
+      width: 330px;
+   }
+
+   footer .registration .contents .btn button{
+      width: 330px;
+   }
+}
